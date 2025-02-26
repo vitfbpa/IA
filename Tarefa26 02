@@ -1,0 +1,87 @@
+Inteligência Artificial
+- Técnicas de resolução de problemas;
+    - Que tipo de problemas?
+        - (A) Diagnóstico ou reconhecimento de padrões
+            - tomada de decisões
+                - área médica
+            - processamento de imagens
+        - (B) Definição de passos até o estado final (empacotamento)
+            - área de jogos
+            - linha de montagem
+
+
+
+    - Sistemas de Conhecimento
+        - Base de Conhecimento (gigantesca)
+             - fatos
+        - Raciocínio Automatizado (decução de indução)
+        - Aprendizagem -> reconhecimento de padrões por treino
+
+        Áreas
+
+        -  (B) Métodos de Busca (solução de problemas)
+            - profundidade, amplitude, subida de encosta, gulosa, A#
+            - algoritmos genéticos
+        - (A) (B) Representação de conhecimento
+            - Prolog
+            - Ontologia
+        - (B) Sistemas multiagentes
+        - (A) Redes Neurais
+        - (A) Processamento da língua neural - PLN
+        
+        Problemas:
+
+        1) Resolver o jogo da velha - B
+        2) Resolver problema de mau funcionamento de um computador - A
+        3) Resolver o problema do puzzle
+        4) Fazer a entrega de N pizzas por um motoboy em um tempo mínimo - B
+        5) Montar a grade de horários em um curso de graduação - B
+        6) Identificar os instrumentos musicais em uma música - A
+        
+
+Modelar a solução com alguma técnica de IA
+    1) Mapear os estados possíveis do problema
+        - Definir classe e seus atributos
+        - Definir o estado inicial e o(s) estado(s) finai(s)
+
+    2) Mapear os métodos das classes - Regras de Transição
+    3) Mapear as restrições - método ehValido()
+    4) Forma de mapear os visitados - hashSet ou uma árvore
+        - gerar uma string dos atributos daquele estado/objeto
+    5) Definir o método meta ou objetivo
+
+Observação: 
+    - toda vez que um estado/objeto é gerado é preciso fazer 3 testes:
+    1) é valido?
+    2) já visitei?
+    3) é a meta?
+
+Tarefa Missionários e Canibais!
+
+Dois canibais cruzam para a margem direita.
+Margem esquerda: 3 missionários, 1 canibal.
+Margem direita: 2 canibais.
+Um canibal volta para a margem esquerda.
+Margem esquerda: 3 missionários, 2 canibais.
+Margem direita: 1 canibal.
+Dois missionários cruzam para a margem direita.
+Margem esquerda: 1 missionário, 2 canibais.
+Margem direita: 2 missionários, 1 canibal.
+Um missionário e um canibal voltam para a margem esquerda.
+Margem esquerda: 2 missionários, 2 canibais.
+Margem direita: 1 missionário, 1 canibal.
+Dois canibais cruzam para a margem direita.
+Margem esquerda: 2 missionários.
+Margem direita: 3 canibais, 1 missionário.
+Um canibal volta para a margem esquerda.
+Margem esquerda: 2 missionários, 1 canibal.
+Margem direita: 2 canibais, 1 missionário.
+Dois missionários cruzam para a margem direita.
+Margem esquerda: 1 canibal.
+Margem direita: 3 missionários, 2 canibais.
+Um canibal volta para a margem esquerda.
+Margem esquerda: 1 canibal.
+Margem direita: 3 missionários, 2 canibais.
+Os dois canibais cruzam para a margem direita.
+Margem esquerda: (vazia).
+Margem direita: 3 missionários, 3 canibais.
