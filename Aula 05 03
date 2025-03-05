@@ -42,5 +42,36 @@ Inteligencia Artificial
   - Técnica de IA para encontrar um conjunto de passos a um estado final (conhecido ou não)
     - modelagem: estados, regras de transição, restrições, visitados, função meta
     - estratégias para escolher as regras de transição
-      - 
-      
+      -  MÉTODOS DE BUSCA
+        - cegos ou de força bruta: 
+          - quando aplicar: 
+            - quando não se tem informação previlegiada (heurística)
+            - quando há hardware poderoso (sobrando)
+            - quando há pouca restrição
+         - largura ou amplitude
+            - fila
+          - profundidade
+            - pilha (recursiva)
+        - informados ou heurísticos
+          - o que é heurística: informação privilegiada para aplicar uma ou outra regra de transição 
+          - quando aplicar:
+            - quando se tem dica ou heurística
+              - como saber se há heurística é admissível (boa):
+                - veio de um especialista
+                - foi calculada/gerada pelo computador
+            - quando se tem pouco hardware
+            - quando se tem muitas restrições 
+          - o que seria uma dica ou uma heurística?
+            - custo:
+              - real 
+              - estimado - aqui pode haver a falha ou inadmissão
+          - quais são os principais métodos
+            - Subida de Encosta (Climb Hill)
+              - profundidade
+              - custo real - g(n)
+            - Guloso
+              - amplitude
+              - custo estimado - h(n)
+            - A*
+              - amplitude 
+              - mistura custo real com custo estimado (correção)
