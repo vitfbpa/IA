@@ -37,4 +37,10 @@ Inteligencia Artificial
     - Desafio:
       - juntar imagens de N tipo de plantas
       - para cada tipo de planta, trazer imagens de doentes e não doentes
+
+# Resolução de problemas por métodos de busca
+  - Técnica de IA para encontrar um conjunto de passos a um estado final (conhecido ou não)
+    - modelagem: estados, regras de transição, restrições, visitados, função meta
+    - estratégias para escolher as regras de transição
+      - 
       
