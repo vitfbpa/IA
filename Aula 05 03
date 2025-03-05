@@ -1,1 +1,40 @@
-Teste
+Inteligencia Artificial
+- Técnicas para construção de Sistemas de Comportamento Inteligente
+  - base de conhecimento: fatos ou experiências
+  - raciocínio automatizado : decução e indução
+  - aprendizagem de máquina: treinamento ou repetição de amostras - reconhecimento 
+- Resolve alguns problemas:
+  A) problemas em que se quer os passos até um estado final (conhecido ou não)
+  B) diagnóstico - reconhecer padrões
+
+- Exemplos:
+1) Qual o melhor caminho de um pacote de uma rede de dados cabeada com fibra ótica:
+  - A
+2) Saindo da pizzaria e entregando N pizzas em um tempo mínimo
+  - A
+3) Um programa de computador que jogue damas contra um ser humano
+  - A
+4) Uma função que carregue foto, obrigatoriamente, de somente um rosto de uma pessoa.
+  - B
+
+    - Desafio:
+    1) fazer a máquina reconhecer pessoas
+      treinamento:
+        - imagens positivas: imagens de pessoas
+          - há pacotes/bibliotecas com funções que reconhecem pessoas
+        - imagens negativas: sem imagem de pessoas
+        - imagens sobrepostas: 
+
+    2) fazer a máquina reconhecer somente um rosto
+      - treinamento: 
+        - imagens positivas: imagens de somente um rosto
+          - há pacotes/bibliotecas com funções que reconhecem um rosto
+        - imagens negativas: sem imagem de pessoas
+        - imagens sobrepostas: 
+
+5) A partir da foto de uma folha de planta, informar se a planta está ou não doente 
+  - B
+    - Desafio:
+      - juntar imagens de N tipo de plantas
+      - para cada tipo de planta, trazer imagens de doentes e não doentes
+      
